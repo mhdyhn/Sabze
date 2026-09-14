@@ -8,7 +8,7 @@ export const homeContent = {
       "کشمش سبز پریمیوم سبزه سبز؛ برداشت از باغ‌های خودمان، فرآوری کنترل‌شده و بسته‌بندی اختصاصی — بدون واسطه، بدون مصالحه.",
     primaryCta: { label: "مشاهده محصولات", href: "/products" },
     secondaryCta: { label: "عمده‌فروشی و صادرات", href: "/wholesale" },
-    image: "/images/hero-raisin.webp",
+    image: "/Sabze/images/hero-raisin.webp",
     imageAlt: "نمای نزدیک کشمش سبز پریمیوم سبزه سبز با نور طبیعی",
     points: ["برداشت فصل جاری", "درجه‌بندی دستی", "کیفیت صادراتی"],
   },
