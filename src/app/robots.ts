@@ -1,9 +1,13 @@
 import type { MetadataRoute } from "next";
-import { brand } from "@/lib/brand";
+
+export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: [{ userAgent: "*", allow: "/", disallow: ["/cart", "/checkout", "/success"] }],
-    sitemap: `${brand.siteUrl}/sitemap.xml`,
+    rules: {
+      userAgent: "*",
+      allow: "/",
+    },
+    sitemap: "https://mhdyhn.github.io/Sabze/sitemap.xml",
   };
 }
