@@ -1,0 +1,12 @@
+Sabze Sabz project update
+
+Changes:
+- Fixed all /images/... asset references to /Sabze/images/... for GitHub Pages.
+- Configured Next.js for static export at /Sabze.
+- Enabled unoptimized next/image for static export.
+- Fixed static sitemap and robots generation for GitHub Pages.
+- Added GitHub Pages deployment workflow.
+- Updated preview site URL to https://mhdyhn.github.io/Sabze.
+- Added a Persian/English language switcher using Google Translate. The selected language is persisted in localStorage and page direction changes between RTL/LTR.
+
+No product, layout, styling, business logic, or content was changed unless required for the above fixes.
